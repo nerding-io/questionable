@@ -11,8 +11,7 @@ Questionable is a free Chrome extension that enables you to search website pages
 - **Enhanced Search**: Use natural language questions to find the information you need quickly.
 - **Perfect for Students**: Boost your research skills and find accurate information effortlessly.
 
-## Installation
-
+## Installation (coming soon)
 1. Open the Chrome web browser.
 2. Go to the [Chrome Web Store](https://chrome.google.com/webstore).
 3. Search for "Questionable" in the search bar.
