@@ -1,0 +1,20 @@
+{
+  "name": "Questionable",
+  "version": "0.0.1",
+  "description": "Questionable | Transformative search",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "author": "Nerding I/O",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.1.1"
+  }
+}

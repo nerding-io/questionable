@@ -1,0 +1,36 @@
+__pycache__
+.vscode
+node_modules
+.cache
+
+# Do not track build artifacts/generated files
+/dist
+/types
+/models
+
+# Do not track coverage reports
+/coverage
+
+# Ignore build output directories
+build.zip
+dist/
+build/
+out/
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp

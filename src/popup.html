@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionable | Transformative search</title>
+
+    <!-- Load styles -->
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+    <div class="container" class="search-form">
+      <!-- <h1><i>Questionable</i></h1> -->
+      <div class="search-bar">
+        <div class="search-icon">
+          <img src="icons/icon.png" alt="Search Icon" aria-hidden="true" />
+        </div>
+        <input
+          type="text"
+          tabindex="1"
+          placeholder="Ask a question to search..."
+          aria-label="Ask a question to search"
+        />
+        <div
+          class="search-button"
+          role="button"
+          aria-label="Search button"
+          aria
+          tabindex="1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            aria-hidden="true"
+            aria-label="Search"
+          >
+            <defs>
+              <linearGradient
+                id="magnifyingGlassGradient"
+                gradientTransform="rotate(45)"
+              >
+                <stop offset="50%" stop-color="var(--questionable-secondary)" />
+                <stop offset="150%" stop-color="var(--questionable-primary)" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M12.75 12l-2.833-2.833a4.5 4.5 0 1 0-.793.793L12 12.75l.75-.75zm-5.25-2.5a2.75 2.75 0 1 1 0-5.5 2.75 2.75 0 0 1 0 5.5z"
+              fill="url(#magnifyingGlassGradient)"
+            />
+          </svg>
+        </div>
+      </div>
+      <div id="spinner" class="spinner" aria-hidden="true"></div>
+      <div id="searchResults" aria-hidden="true"></div>
+      <pre id="output" aria-hidden="true"></pre>
+    </div>
+  </body>
+</html>
