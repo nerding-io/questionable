@@ -3,7 +3,7 @@
   "name": "Questionable (by Nerding I/O)",
   "description": "Transforming search with AI. Ask a question about a particular website and it will be highlighted and scrolled to.",
   "version": "0.0.1",
-  "permissions": ["tabs", "activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://*/*", "<all_urls>"],
   "content_scripts": [
     {
